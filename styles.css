@@ -6,7 +6,7 @@ body {
 .navbar {
     height: 100%;
     position: fixed;
-    border-right: 1px black solid;
+    border-right: 1px black double;
     width: 250px;
     top: 0;
     left: 0;
@@ -14,10 +14,32 @@ body {
 
 .five_churches_logo {
     width: 200px;
+    height: 150px;
 }
 
 .container {
-    padding: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.table {
+    width: 100%;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 25px;
+}
+
+li {
+    padding: 12.5px 0;
+    border-bottom: 1px black solid;
+    padding-left: 25px;
+    
+}
+
+.no_border {
+    border: 0
 }
 
 a {
