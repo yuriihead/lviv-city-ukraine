@@ -1,18 +1,38 @@
 body {
-    height: 700vw;
     margin: 0;
+    margin-left: 250px;
 }
 
 .navbar {
     height: 100%;
     position: fixed;
-    border-right: 2px black solid;
+    border-right: 1px black solid;
     width: 250px;
     top: 0;
     left: 0;
 }
 
+.five_churches_logo {
+    width: 200px;
+}
+
+.container {
+    padding: auto;
+}
+
 a {
     text-decoration: none;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
