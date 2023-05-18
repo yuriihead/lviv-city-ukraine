@@ -1,0 +1,15 @@
+body {
+    height: 700vw;
+    margin: 0;
+}
+
+.navbar {
+    height: 100%;
+    position: fixed;
+    border-right: 2px black solid;
+    width: 250px;
+}
+
+a {
+    text-decoration: none;
+}
