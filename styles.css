@@ -8,8 +8,11 @@ body {
     position: fixed;
     border-right: 2px black solid;
     width: 250px;
+    top: 0;
+    left: 0;
 }
 
 a {
     text-decoration: none;
 }
+
