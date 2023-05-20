@@ -62,9 +62,9 @@ ul {
 }
 
 main {
-    padding-left: 30px;
+    padding-left: 45px;
     padding-right: 30px;
-    padding-top: 16px;
+    padding-top: 25px;
 }
 
 
@@ -74,6 +74,7 @@ main {
     background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
+    
 }
 
 h1, h2, h3, h4 {
@@ -86,6 +87,7 @@ h1, h2, h3, h4 {
     background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
+    
 }
 
 .boxlow {
@@ -94,6 +96,7 @@ h1, h2, h3, h4 {
     background-color: rgb(228, 228, 228);
     display: flex;
     align-items: center;
+    
 }
 
 h1, h2 {
@@ -101,9 +104,14 @@ h1, h2 {
 }
 
 h3 {
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
-h4, p {
-    padding-left: 7.5px;
+h4 {
+    padding-left: 30px;
+}
+
+p {
+    margin: 25px 0;
+    padding-left: 30px;
 }
